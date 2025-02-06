@@ -1,6 +1,6 @@
 # Demopalooza: Practical RAG with OPEA and Haystack
 
-This template [Streamlit](https://docs.streamlit.io/) app is set up for simple [Haystack](https://haystack.deepset.ai/) applications. The template is ready to do **Retrievel Augmented Generation** on example files.
+This [Streamlit](https://docs.streamlit.io/) app is set up for simple [Haystack](https://haystack.deepset.ai/) and [OPEA](https://opea.dev/) applications. The template is ready to perform **Retrieval Augmented Generation** with three different retrieval methods on example files.
 
 See the ['How to use this template'](#how-to-use-this-template) instructions below to create a simple UI for your own Haystack search pipelines.
 
@@ -10,7 +10,7 @@ To run the bare application:
 2. Make sure that your OPEA microservices are running
 3. Run the streamlit app: `streamlit run app.py`
 
-This will start up the app on `localhost:8501` where you will find a simple search bar. 
+This will start the app on `localhost:8501`, where you will find a simple search bar. 
 
 ## How to use this template
 1. Create a new repository from this template or simply open it in a codespace to start playing around 💙
