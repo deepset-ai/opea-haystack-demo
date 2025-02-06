@@ -1,15 +1,4 @@
----
-title: Haystack Application with Streamlit
-emoji: 👑
-colorFrom: indigo
-colorTo: indigo
-sdk: streamlit
-sdk_version: 1.41.1
-app_file: app.py
-pinned: false
----
-
-# Demoplooza: Practical RAG with OPEA and Haystack
+# Demopalooza: Practical RAG with OPEA and Haystack
 
 This template [Streamlit](https://docs.streamlit.io/) app is set up for simple [Haystack](https://haystack.deepset.ai/) applications. The template is ready to do **Retrievel Augmented Generation** on example files.
 
