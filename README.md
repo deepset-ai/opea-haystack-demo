@@ -9,7 +9,7 @@ app_file: app.py
 pinned: false
 ---
 
-# Template for Haystack Apps with Streamlit
+# Demoplooza: Practical RAG with OPEA and Haystack
 
 This template [Streamlit](https://docs.streamlit.io/) app is set up for simple [Haystack](https://haystack.deepset.ai/) applications. The template is ready to do **Retrievel Augmented Generation** on example files.
 
@@ -18,14 +18,8 @@ See the ['How to use this template'](#how-to-use-this-template) instructions bel
 ## Installation and Running
 To run the bare application:
 1. Install requirements: `pip install -r requirements.txt`
-2. Include all environment variable in a `.env` file
-  Example `.env`
-  ```
-  WEAVIATE_API_KEY="YOUR_KEY"
-  MISTRAL_API_KEY="YOUR_KEY" # this demo uses Mistral models by default
-  ```
-3. Decide on the files and the method to populate your database (Check out instructions in `haystack.py`)
-4. Run the streamlit app: `streamlit run app.py`
+2. Make sure that your OPEA microservices are running
+3. Run the streamlit app: `streamlit run app.py`
 
 This will start up the app on `localhost:8501` where you will find a simple search bar. 
 
@@ -50,6 +44,5 @@ There are default pipelines both in `start_document_store()` and `start_haystack
 ### 📚 Useful Resources
 * [Get Started](https://haystack.deepset.ai/overview/quick-start)
 * [Docs](https://docs.haystack.deepset.ai/docs/intro)
-    * [Creating Custom Components](https://docs.haystack.deepset.ai/docs/custom-components)
 * [Tutorials](https://haystack.deepset.ai/tutorials)
 * [Integrations](https://haystack.deepset.ai/integrations)

@@ -1,7 +1,7 @@
 streamlit==1.41.1
 haystack-ai==2.9.0
-weaviate-haystack
-mistral-haystack
+git+https://github.com/deepset-ai/haystack-experimental.git@main
+git+https://github.com/gadmarkovits/GenAIComps.git@main
 lmnt
 sentence-transformers>=3.0.0
 python-dotenv
